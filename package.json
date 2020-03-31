@@ -1,0 +1,26 @@
+{
+  "name": "electron-angular",
+  "version": "1.0.0",
+  "description": "App electron com angular",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vitortizi/electron-angular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vitortizi/electron-angular/issues"
+  },
+  "homepage": "https://github.com/Vitortizi/electron-angular#readme",
+  "devDependencies": {
+    "electron": "^8.2.0"
+  },
+  "dependencies": {
+    "angular": "^1.7.9",
+    "bootstrap": "^4.4.1"
+  }
+}

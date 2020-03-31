@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <title>Photon</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./node_modules//bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body ng-controller="myCtrl">
+    <nav id="nav">
+        <div id="togglers">
+            <div id="minimize" ng-click="minimize()"><span>-</span>
+            </div>
+            <div id="maximize" ng-click="maximize()"><span>&square;</span>
+            </div>
+            <div id="close" ng-click="close()"><span>&times;</span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Bootstrap Tutorial</h1>
+            <p>Bootstrap is the most popular HTML, CSS...</p>
+        </div>
+    </div>
+</body>
+
+<script src="./node_modules/angular/angular.min.js"></script>
+<script src="./index.js"></script>
+
+</html>
