@@ -4,6 +4,7 @@ var win = remote.getCurrentWindow();
 
 var ang = angular.module("app", []);
 ang.controller("myCtrl", function ($scope) {
+    
     $scope.minimize = function () {
         win.minimize();
     }

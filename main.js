@@ -1,5 +1,13 @@
-const { app, BrowserWindow, remote } = require('electron')
+'use strict';
+
+const { app, BrowserWindow, } = require('electron')
 const path = require('path')
+
+// Standard stuff
+require('electron-reload')(__dirname, {
+    // Note that the path to electron may vary according to the main file
+    electron: require(`${__dirname}/node_modules/electron`)
+});
 
 function createWindow() {
 
@@ -16,8 +24,6 @@ function createWindow() {
     mainWindow.webContents.openDevTools();
 
     mainWindow.loadFile('index.html')
-    // Open the DevTools.
-    // mainWindow.webContents.openDevTools()
 }
 
 app.whenReady().then(createWindow)
