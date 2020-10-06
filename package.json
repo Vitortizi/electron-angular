@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Vitortizi/electron-angular#readme",
   "devDependencies": {
-    "electron": "^8.2.0"
+    "electron": "^8.5.2"
   },
   "dependencies": {
     "angular": "^1.7.9",
